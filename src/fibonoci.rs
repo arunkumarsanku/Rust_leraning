@@ -15,7 +15,7 @@ fn fib(num: u32) -> u32 {
         return second; // Return the second Fibonacci number if input is 1
     }
 
-    for _ in 2..num {
+    for _ in 0..(num - 1) { // Loop from 0 to num - 1
         let temp = second; // Store the current second Fibonacci number
         second = first + second; // Calculate the next Fibonacci number
         first = temp; // Update the first Fibonacci number
