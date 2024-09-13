@@ -1,7 +1,7 @@
 
 /// Calculates the Fibonacci number for the given input.
 fn main() {
-    println!("{}", fib(10));
+    println!("{}", fib(6));
 }
 
 fn fib(num: u32) -> u32 {
