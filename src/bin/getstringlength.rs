@@ -7,6 +7,6 @@ fn main() {
     println!("The length of the string is: {}", length); // Print the length of the string
 }
 
-fn get_string_length(string: &str) -> usize { // Function to get the length of the string
+fn get_string_length(string: &String) -> usize { // Function to get the length of the string
     string.chars().count()  // Return the length of the string
 }
